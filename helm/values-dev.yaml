@@ -2,6 +2,7 @@ deployment:
   replicas: 2
   imageVersion: IMAGE_VERSION
   imageURL: 805778285734.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/web
+
 hpa:
   cpuUtilization: 15
 tgb:
